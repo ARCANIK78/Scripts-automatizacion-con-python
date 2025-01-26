@@ -1,0 +1,1310 @@
+CPU-Z TXT Report
+-------------------------------------------------------------------------
+
+Binaries
+-------------------------------------------------------------------------
+
+CPU-Z version			2.12.0.x64
+
+Processors
+-------------------------------------------------------------------------
+
+CPU Groups			1
+CPU Group 0			2 threads, mask=0x3
+
+Number of sockets		1
+Number of threads		2
+
+APICs
+-------------------------------------------------------------------------
+
+Socket 0	
+	-- Core 0 (ID 0)	
+		-- Thread 0	0
+	-- Core 1 (ID 1)	
+		-- Thread 1	1
+
+Timers
+-------------------------------------------------------------------------
+
+	ACPI timer		3.580 MHz
+	Perf timer		2.922 MHz
+	Sys timer		1.000 KHz
+
+
+Processors Information
+-------------------------------------------------------------------------
+
+Socket 1			ID = 0
+	Number of cores		2 (max 2)
+	Number of threads	2 (max 2)
+	Manufacturer		GenuineIntel
+	Name			Intel Pentium E5700
+	Codename		Wolfdale
+	Specification		Pentium(R) Dual-Core  CPU      E5700  @ 3.00GHz
+	Package (platform ID)	Socket 775 LGA (0x0)
+	CPUID			6.7.A
+	Extended CPUID		6.17
+	Core Stepping		R0
+	Technology		45 nm
+	TDP Limit		65.0 Watts
+	Core Speed		2991.2 MHz
+	Multiplier x Bus Speed	15.0 x 199.4 MHz
+	Base frequency (cores)	199.4 MHz
+	Rated Bus speed		797.7 MHz
+	Stock frequency		3000 MHz
+	Instructions sets	MMX, SSE, SSE2, SSE3, SSSE3, EM64T, VT-x
+	Microcode Revision	0xA07
+	L1 Data cache		2 x 32 KB (8-way, 64-byte line)
+	L1 Instruction cache	2 x 32 KB (8-way, 64-byte line)
+	L2 cache		2 MB (8-way, 64-byte line)
+	Max CPUID level		0000000Dh
+	Max CPUID ext. level	80000008h
+	FID/VID Control		yes
+	FID range		6.0x - 15.0x
+	Max VID			1.275 V
+
+
+
+	Temperature 0		38 degC (100 degF) (Cores (Max))
+	Temperature 1		38 degC (100 degF) (Core #0)
+	Temperature 2		33 degC (91 degF) (Core #1)
+	Clock Speed 0		2991.25 MHz (Core #0)
+	Clock Speed 1		2991.25 MHz (Core #1)
+	Clock Speed 2		199.42 MHz (CPU BCLK)
+	Clock Speed 3		n.a. (SOC BCLK)
+	Core 0 max ratio	(effective) 15.00
+	Core 1 max ratio	(effective) 15.00
+
+
+Thread dumps
+-------------------------------------------------------------------------
+
+CPU Thread 0	
+	APIC ID			0
+	Topology		Processor ID 0, Core ID 0, Thread ID 0
+	Cache descriptor	Level 1, D, 32 KB, 1 thread(s)
+	Cache descriptor	Level 1, I, 32 KB, 1 thread(s)
+	Cache descriptor	Level 2, U, 2 MB, 2 thread(s)
+
+	CPUID		 
+	0x00000000		0x0000000D	0x756E6547	0x6C65746E	0x49656E69
+	0x00000001		0x0001067A	0x00020800	0x0C00E3BD	0xBFEBFBFF
+	0x00000002		0x05B0B101	0x005657F0	0x00000000	0x2CB4307D
+	0x00000003		0x00000000	0x00000000	0x00000000	0x00000000
+	0x00000004		0x04000121	0x01C0003F	0x0000003F	0x00000001
+	0x00000004		0x04000122	0x01C0003F	0x0000003F	0x00000001
+	0x00000004		0x04004143	0x01C0003F	0x00000FFF	0x00000001
+	0x00000005		0x00000040	0x00000040	0x00000003	0x00022220
+	0x00000006		0x00000001	0x00000002	0x00000003	0x00000000
+	0x00000007		0x00000000	0x00000000	0x00000000	0x00000000
+	0x00000008		0x00000400	0x00000000	0x00000000	0x00000000
+	0x00000009		0x00000000	0x00000000	0x00000000	0x00000000
+	0x0000000A		0x07280202	0x00000000	0x00000000	0x00000503
+	0x0000000C		0x00000000	0x00000000	0x00000000	0x00000000
+	0x0000000D		0x00000003	0x00000240	0x00000240	0x00000000
+	0x0000000D		0x00000000	0x00000000	0x00000000	0x00000000
+	0x80000000		0x80000008	0x00000000	0x00000000	0x00000000
+	0x80000001		0x00000000	0x00000000	0x00000001	0x20000800
+	0x80000002		0x746E6550	0x286D7569	0x44202952	0x2D6C6175
+	0x80000003		0x65726F43	0x50432020	0x20202055	0x45202020
+	0x80000004		0x30303735	0x20402020	0x30302E33	0x007A4847
+	0x80000005		0x00000000	0x00000000	0x00000000	0x00000000
+	0x80000006		0x00000000	0x00000000	0x08006040	0x00000000
+	0x80000007		0x00000000	0x00000000	0x00000000	0x00000000
+	0x80000008		0x00003024	0x00000000	0x00000000	0x00000000
+
+	MSR 0x0000001B		0x00000000	0xFEE00900
+	MSR 0x0000003A		0x00000000	0x00000005
+	MSR 0x00000017		0x04000000	0xAE848F24
+	MSR 0x0000003F		0x00000000	0x00000000
+	MSR 0x000000CE		0x00160F24	0x46460712
+	MSR 0x000001A0		0x00000044	0x68872489
+	MSR 0x000000EE		0x00000000	0x86790300
+	MSR 0x0000011E		0x00000000	0xBE702107
+	MSR 0x000000CD		0x00000000	0x80000802
+	MSR 0x0000019C		0x00000000	0x883B0000
+	MSR 0x00000198		0x06160F24	0x06000F24
+	MSR 0x00000199		0x00000000	0x00000F24
+
+
+CPU Thread 1	
+	APIC ID			1
+	Topology		Processor ID 0, Core ID 1, Thread ID 0
+	Cache descriptor	Level 1, D, 32 KB, 1 thread(s)
+	Cache descriptor	Level 1, I, 32 KB, 1 thread(s)
+	Cache descriptor	Level 2, U, 2 MB, 2 thread(s)
+
+	CPUID		 
+	0x00000000		0x0000000D	0x756E6547	0x6C65746E	0x49656E69
+	0x00000001		0x0001067A	0x01020800	0x0C00E3BD	0xBFEBFBFF
+	0x00000002		0x05B0B101	0x005657F0	0x00000000	0x2CB4307D
+	0x00000003		0x00000000	0x00000000	0x00000000	0x00000000
+	0x00000004		0x04000121	0x01C0003F	0x0000003F	0x00000001
+	0x00000004		0x04000122	0x01C0003F	0x0000003F	0x00000001
+	0x00000004		0x04004143	0x01C0003F	0x00000FFF	0x00000001
+	0x00000005		0x00000040	0x00000040	0x00000003	0x00022220
+	0x00000006		0x00000001	0x00000002	0x00000003	0x00000000
+	0x00000007		0x00000000	0x00000000	0x00000000	0x00000000
+	0x00000008		0x00000400	0x00000000	0x00000000	0x00000000
+	0x00000009		0x00000000	0x00000000	0x00000000	0x00000000
+	0x0000000A		0x07280202	0x00000000	0x00000000	0x00000503
+	0x0000000C		0x00000000	0x00000000	0x00000000	0x00000000
+	0x0000000D		0x00000003	0x00000240	0x00000240	0x00000000
+	0x0000000D		0x00000000	0x00000000	0x00000000	0x00000000
+	0x80000000		0x80000008	0x00000000	0x00000000	0x00000000
+	0x80000001		0x00000000	0x00000000	0x00000001	0x20000800
+	0x80000002		0x746E6550	0x286D7569	0x44202952	0x2D6C6175
+	0x80000003		0x65726F43	0x50432020	0x20202055	0x45202020
+	0x80000004		0x30303735	0x20402020	0x30302E33	0x007A4847
+	0x80000005		0x00000000	0x00000000	0x00000000	0x00000000
+	0x80000006		0x00000000	0x00000000	0x08006040	0x00000000
+	0x80000007		0x00000000	0x00000000	0x00000000	0x00000000
+	0x80000008		0x00003024	0x00000000	0x00000000	0x00000000
+
+	MSR 0x0000001B		0x00000000	0xFEE00800
+	MSR 0x0000003A		0x00000000	0x00000005
+	MSR 0x00000017		0x04000000	0xAE848F24
+	MSR 0x0000003F		0x00000000	0x00000000
+	MSR 0x000000CE		0x00160F24	0x46460712
+	MSR 0x000001A0		0x00000044	0x68872489
+	MSR 0x000000EE		0x00000000	0x86790300
+	MSR 0x0000011E		0x00000000	0xBE702107
+	MSR 0x000000CD		0x00000000	0x80000802
+	MSR 0x0000019C		0x00000000	0x88420000
+	MSR 0x00000198		0x06160F24	0x06000F24
+	MSR 0x00000199		0x00000000	0x00000F24
+
+
+
+
+BIOS
+-------------------------------------------------------------------------
+
+UEFI				No
+BIOS Vendor			American Megatrends Inc.
+BIOS MSG			64-130-0000010-00101111-021511-INTEL
+BIOS Date			02/15/11
+Mainboard Vendor		0000010
+
+Chipset
+-------------------------------------------------------------------------
+
+Northbridge			Intel G41 rev. A3
+Southbridge			Intel 82801GB (ICH7/R) rev. A1
+Bus Specification		PCI-Express 1.0 (2.5 GT/s)
+Memory Type			DDR3
+Memory Size			4 GBytes
+Channels			Single
+Memory Frequency		398.8 MHz (1:2)
+CAS# latency (CL)		6.0
+RAS# to CAS# delay (tRCD)	6
+RAS# Precharge (tRP)		6
+Cycle Time (tRAS)		15
+Row Refresh Cycle Time (tRFC)	64
+Command Rate (CR)		2T
+Host Bridge			0x2E30
+
+
+Memory SPD
+-------------------------------------------------------------------------
+
+DIMM #				1
+	SMBus address		0x50
+	Memory type		DDR3
+	Module format		UDIMM
+	Module Manufacturer(ID)	Kingston (7F9800000000000000000000000000)
+	Size			4096 MBytes
+	Max bandwidth		PC3-10700 (667 MHz)
+	Part number		9905471-011.A00LF 
+	Serial number		021EE579
+	Manufacturing date	Week 46/Year 11
+	Number of banks		8
+	Nominal Voltage		1.50 Volts
+	EPP			no
+	XMP			no
+	AMP			no
+	EXPO			no
+JEDEC timings table		CL-tRCD-tRP-tRAS-tRC @ frequency
+	JEDEC #1		6.0-6-6-17-23 @ 457 MHz
+	JEDEC #2		7.0-7-7-20-27 @ 533 MHz
+	JEDEC #3		8.0-8-8-22-30 @ 609 MHz
+	JEDEC #4		9.0-9-9-24-33 @ 666 MHz
+
+DIMM #				1
+SPD registers	
+		00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F 
+	00	92 10 0B 02 03 19 00 09 03 52 01 08 0C 00 3C 00 
+	10	69 78 69 30 69 11 20 89 00 05 3C 3C 00 F0 83 81 
+	20	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	30	00 00 00 00 00 00 00 00 00 00 00 00 04 11 07 01 
+	40	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	50	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	60	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	70	00 00 00 00 00 01 98 00 11 46 02 1E E5 79 28 A0 
+	80	39 39 30 35 34 37 31 2D 30 31 31 2E 41 30 30 4C 
+	90	46 20 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	A0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	B0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	C0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	D0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	E0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	F0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 5A 
+
+
+Monitoring
+-------------------------------------------------------------------------
+
+Mainboard Model		G41M-VS3. (0x00000230 - 0x0277AAE8)
+
+LPCIO
+-------------------------------------------------------------------------
+
+LPCIO Vendor			Winbond
+LPCIO Model			W83627DHG-P
+LPCIO Vendor ID			0x5CA3
+LPCIO Chip ID			0xB0
+LPCIO Revision ID		0x73
+Config Mode I/O address		0x2E
+Config Mode LDN			0xB
+Config Mode registers	
+		00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F 
+	00	FF FF FF FF FF FF FF 0B FF FF FF FF FF FF FF FF 
+	10	FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+	20	B0 73 FF 00 44 00 00 FF 70 00 00 00 D2 21 00 FF 
+	30	01 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+	40	FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+	50	FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+	60	02 90 FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+	70	00 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+Register space			LPC, base address = 0x0290
+
+
+Hardware Monitors
+-------------------------------------------------------------------------
+
+Hardware monitor		Winbond W83627DHG
+	Voltage 0		1.26 Volts [0x9E] (CPU VCORE)
+	Voltage 1		0.90 Volts [0x71] (VIN1)
+	Voltage 2		3.31 Volts [0xCF] (+3.3V)
+	Voltage 3		4.97 Volts [0xCF] (+5V)
+	Voltage 4		11.54 Volts [0xCF] (+12V)
+	Voltage 5		1.68 Volts [0xD2] (VIN5)
+	Voltage 6		1.81 Volts [0xE2] (VIN6)
+	Temperature 0		32 degC (89 degF) [0x20] (SYSTIN)
+	Temperature 1		35 degC (94 degF) [0x45] (CPUTIN)
+	Temperature 2		46 degC (113 degF) [0x5B] (AUXTIN)
+	Fan 1			2033 RPM [0x53] (CPUFANIN0)
+Hardware registers	
+Register space			LPC, base address = 0x0290
+bank 0	
+		00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F 
+	00	04 FF 04 FF 01 00 32 20 01 80 01 01 3C 3C 0A 0A 
+	10	04 FF 10 00 00 01 01 3C 43 07 00 00 25 FF FF C5 
+	20	9E 71 CF CF CF D2 E2 20 FF 53 FF DA 00 9A 9F CD 
+	30	73 6D 09 59 F3 5C 0E 94 73 8A 1B 55 98 24 25 FF 
+	40	03 5E 1F FF FF 00 3F F5 2D 00 00 C4 10 95 00 A3 
+	50	FF FF 00 FF FF FF 00 80 C1 7F FF FF 19 A0 00 05 
+	60	04 7F 40 00 01 01 3C FF 01 FF 01 FF FF FF FF 00 
+	70	00 00 00 00 00 0E 7F 7F 7F 7F 7F 7F 00 20 FF FF 
+	80	04 FF 04 FF 01 00 32 20 01 80 01 01 3C 3C 0A 0A 
+	90	04 FF 10 00 00 01 01 3C 43 07 00 00 25 FF FF C5 
+	A0	9E 71 CF CF CF D2 E2 20 FF 53 FF DA 00 9A 9F CD 
+	B0	73 6D 09 59 F3 5C 0E 94 73 8A 1B 55 98 24 25 FF 
+	C0	03 00 10 FF FF 00 3F F5 2D 00 00 C4 10 95 00 A3 
+	D0	FF FF 00 FF FF FF 00 80 C1 7F FF FF 19 A0 00 05 
+	E0	04 7F 40 00 01 01 3C FF 01 FF 01 FF FF FF FF 00 
+	F0	00 00 00 00 00 0E 7F 7F 7F 7F 7F 7F 00 20 FF FF 
+bank 1	
+	50	22 80 00 4B 00 50 04 FC 00 00 00 00 00 00 0E FF 
+bank 2	
+	50	2D 80 00 4B 00 50 1B 92 FF FF FF FF FF FF FF FF 
+bank 3	
+	50	02 06 05 00 07 04 06 01 00 00 00 10 76 02 00 00 
+bank 4	
+	50	3B 13 FF 00 00 00 00 00 68 5E 1D BB 09 60 20 7F 
+
+
+PCI Devices
+-------------------------------------------------------------------------
+
+Register space			PCI Express, base address = 0x0F0000000
+
+Description			Host Bridge
+Location			bus 0 (0x00), device 0 (0x00), function 0 (0x00)
+Common header
+	Vendor ID		0x8086 (Intel)
+	Model ID		0x2E30
+	Revision ID		0x03
+	PI			0x00
+	SubClass		0x00
+	BaseClass		0x06
+	Cache Line		0x00
+	Latency			0x00
+	Header			0x00
+PCI header
+	Subvendor ID		0x1849 (Asrock)
+	Subsystem ID		0x2E30
+	Int. Line		0x00
+	Int. Pin		0x00
+PCI capability
+	Caps class		Vendor Dependant
+	Caps offset		0xE0
+PCI registers	
+		00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F 
+	00	86 80 30 2E 06 00 90 20 03 00 00 06 00 00 00 00 
+	10	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	20	00 00 00 00 00 00 00 00 00 00 00 00 49 18 30 2E 
+	30	00 00 00 00 E0 00 00 00 00 00 00 00 00 00 00 00 
+	40	01 90 D1 FE 00 00 00 00 01 40 D1 FE 00 00 00 00 
+	50	00 00 90 03 09 00 00 00 00 00 00 00 00 00 00 00 
+	60	05 00 00 F0 00 00 00 00 01 80 D1 FE 00 00 00 00 
+	70	00 00 00 00 00 00 00 00 01 08 00 00 00 00 00 00 
+	80	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	90	10 11 11 00 00 33 33 00 40 00 47 00 00 1A 38 00 
+	A0	40 00 00 12 00 00 00 D0 00 00 E0 CF 00 00 E0 CF 
+	B0	00 E0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	C0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	D0	00 00 00 00 03 03 00 00 60 66 66 13 00 00 00 D2 
+	E0	09 00 0C 61 24 0B A7 CF E2 9D 2F 81 00 00 00 00 
+	F0	00 00 00 00 08 00 00 00 A6 0F 05 00 00 00 00 00 
+
+Description			VGA Controller
+Location			bus 0 (0x00), device 2 (0x02), function 0 (0x00)
+Common header
+	Vendor ID		0x8086 (Intel)
+	Model ID		0x2E32
+	Revision ID		0x03
+	PI			0x00
+	SubClass		0x00
+	BaseClass		0x03
+	Cache Line		0x00
+	Latency			0x00
+	Header			0x00
+PCI header
+	Address 0 (memory)	0x00000000FE400004
+	Address 2 (memory)	0x00000000E000000C
+	Address 4 (port)	0x0000DC00
+	Subvendor ID		0x1849 (Asrock)
+	Subsystem ID		0x2E32
+	Int. Line		0x10
+	Int. Pin		0x01
+PCI capability
+	Caps class		Message Signalled Interrupts
+	Caps offset		0x90
+PCI capability
+	Caps class		Power Management
+	Caps offset		0xD0
+	Caps version		1.1
+PCI capability
+	Caps class		0x13
+	Caps offset		0xA4
+PCI registers	
+		00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F 
+	00	86 80 32 2E 07 00 90 00 03 00 00 03 00 00 00 00 
+	10	04 00 40 FE 00 00 00 00 0C 00 00 E0 00 00 00 00 
+	20	01 DC 00 00 00 00 00 00 00 00 00 00 49 18 32 2E 
+	30	00 00 00 00 90 00 00 00 00 00 00 00 10 01 00 00 
+	40	09 00 0C 61 24 0B A7 CF E2 9D 2F 81 00 00 00 00 
+	50	00 00 90 03 09 00 00 00 00 00 00 00 00 00 00 D0 
+	60	00 00 02 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	70	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	80	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	90	05 D0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	A0	00 00 00 00 13 00 06 03 00 00 00 00 00 00 00 00 
+	B0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	C0	00 00 00 00 00 00 00 00 00 00 00 00 BC 01 00 00 
+	D0	01 A4 22 00 00 00 00 00 00 00 00 00 00 01 02 00 
+	E0	00 00 00 00 00 00 00 00 00 80 00 00 00 00 00 00 
+	F0	24 00 03 00 00 00 00 00 A6 0F 05 00 E4 00 D9 CF 
+
+Description			High Definition Audio (HDA)
+Location			bus 0 (0x00), device 27 (0x1B), function 0 (0x00)
+Common header
+	Vendor ID		0x8086 (Intel)
+	Model ID		0x27D8
+	Revision ID		0x01
+	PI			0x00
+	SubClass		0x03
+	BaseClass		0x04
+	Cache Line		0x08
+	Latency			0x00
+	Header			0x00
+PCI header
+	Address 0 (memory)	0x00000000FEAF8004
+	Subvendor ID		0x1849 (Asrock)
+	Subsystem ID		0x0397
+	Int. Line		0x10
+	Int. Pin		0x01
+PCI capability
+	Caps class		Power Management
+	Caps offset		0x50
+	Caps version		1.1
+PCI capability
+	Caps class		Message Signalled Interrupts
+	Caps offset		0x60
+PCI capability
+	Caps class		PCI Express
+	Caps offset		0x70
+	Device type		Root Complex Integrated Endpoint Device
+	Port			0
+	Caps version		1.0
+PCI extended capability
+	Caps class		Virtual Channel
+	Caps offset		0x100
+PCI extended capability
+	Caps class		Root Complex Link Declaration
+	Caps offset		0x130
+	Link Entries #		1
+	Port Number		15
+PCI registers	
+		00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F 
+	00	86 80 D8 27 06 00 10 00 01 00 03 04 08 00 00 00 
+	10	04 80 AF FE 00 00 00 00 00 00 00 00 00 00 00 00 
+	20	00 00 00 00 00 00 00 00 00 00 00 00 49 18 97 03 
+	30	00 00 00 00 50 00 00 00 00 00 00 00 10 01 00 00 
+	40	01 00 00 03 00 00 00 00 00 00 00 00 00 00 00 00 
+	50	01 60 42 C8 00 00 00 00 00 00 00 00 00 00 00 00 
+	60	05 70 80 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	70	10 00 91 00 00 00 00 00 00 08 10 00 00 00 00 00 
+	80	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	90	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	A0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	B0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	C0	00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 
+	D0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	E0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	F0	00 00 00 00 00 00 00 00 86 0F 01 00 00 00 00 00 
+	100	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	110	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	120	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	130	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	140	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	150	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	160	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	170	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	180	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	190	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1A0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1B0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1C0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1D0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1E0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1F0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+Description			PCI to PCI Bridge
+Location			bus 0 (0x00), device 28 (0x1C), function 0 (0x00)
+Common header
+	Vendor ID		0x8086 (Intel)
+	Model ID		0x27D0
+	Revision ID		0x01
+	PI			0x00
+	SubClass		0x04
+	BaseClass		0x06
+	Cache Line		0x08
+	Latency			0x00
+	Header			0x81
+PCI header
+	Primary bus		0x00
+	Secondary bus		0x02
+	Int. Line		0x10
+	Int. Pin		0x01
+PCI capability
+	Caps class		PCI Express
+	Caps offset		0x40
+	Device type		Root Port of PCI-E Root Complex
+	Port			1
+	Caps version		1.0
+	Physical slot		#0
+	Presence detect		no
+	Link width		0x (max 1x)
+	Link speed		2.5 GT/s (max 2.5 GT/s)
+PCI capability
+	Caps class		Message Signalled Interrupts
+	Caps offset		0x80
+PCI capability
+	Caps class		Subsystem Vendor
+	Caps offset		0x90
+	SubVendor ID		0x1849 (Asrock)
+	SubSystem ID		0x27D0
+PCI capability
+	Caps class		Power Management
+	Caps offset		0xA0
+	Caps version		1.1
+PCI extended capability
+	Caps class		Virtual Channel
+	Caps offset		0x100
+PCI extended capability
+	Caps class		Root Complex Link Declaration
+	Caps offset		0x180
+	Link Entries #		1
+	Port Number		1
+PCI registers	
+		00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F 
+	00	86 80 D0 27 06 01 10 00 01 00 04 06 08 00 81 00 
+	10	00 00 00 00 00 00 00 00 00 02 02 00 F0 00 00 20 
+	20	F0 FF 00 00 F1 FD F1 FD 00 00 00 00 00 00 00 00 
+	30	00 00 00 00 40 00 00 00 00 00 00 00 10 01 06 00 
+	40	10 80 41 01 C0 0F 00 00 00 00 10 00 11 4C 11 01 
+	50	00 00 01 10 60 00 00 00 00 00 00 00 00 00 00 00 
+	60	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	70	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	80	05 90 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	90	0D A0 00 00 49 18 D0 27 00 00 00 00 00 00 00 00 
+	A0	01 00 02 C8 00 00 00 00 00 00 00 00 00 00 00 00 
+	B0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	C0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	D0	00 00 00 00 00 00 00 00 00 00 11 00 00 00 00 00 
+	E0	00 00 C7 00 06 07 08 00 00 00 00 00 00 00 00 00 
+	F0	00 00 00 00 00 00 00 00 86 0F 01 00 00 00 00 00 
+	100	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	110	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	120	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	130	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	140	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	150	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	160	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	170	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	180	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	190	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1A0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1B0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1C0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1D0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1E0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1F0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+Description			PCI to PCI Bridge
+Location			bus 0 (0x00), device 28 (0x1C), function 1 (0x01)
+Common header
+	Vendor ID		0x8086 (Intel)
+	Model ID		0x27D2
+	Revision ID		0x01
+	PI			0x00
+	SubClass		0x04
+	BaseClass		0x06
+	Cache Line		0x08
+	Latency			0x00
+	Header			0x81
+PCI header
+	Primary bus		0x00
+	Secondary bus		0x01
+	Int. Line		0x11
+	Int. Pin		0x02
+PCI capability
+	Caps class		PCI Express
+	Caps offset		0x40
+	Device type		Root Port of PCI-E Root Complex
+	Port			2
+	Caps version		1.0
+	Physical slot		#0
+	Presence detect		yes
+	Link width		1x (max 1x)
+	Link speed		2.5 GT/s (max 2.5 GT/s)
+PCI capability
+	Caps class		Message Signalled Interrupts
+	Caps offset		0x80
+PCI capability
+	Caps class		Subsystem Vendor
+	Caps offset		0x90
+	SubVendor ID		0x1849 (Asrock)
+	SubSystem ID		0x27D2
+PCI capability
+	Caps class		Power Management
+	Caps offset		0xA0
+	Caps version		1.1
+PCI extended capability
+	Caps class		Virtual Channel
+	Caps offset		0x100
+PCI extended capability
+	Caps class		Root Complex Link Declaration
+	Caps offset		0x180
+	Link Entries #		1
+	Port Number		2
+PCI registers	
+		00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F 
+	00	86 80 D2 27 07 01 10 00 01 00 04 06 08 00 81 00 
+	10	00 00 00 00 00 00 00 00 00 01 01 00 E0 E0 00 00 
+	20	B0 FE B0 FE F1 FF 01 00 00 00 00 00 00 00 00 00 
+	30	00 00 00 00 40 00 00 00 00 00 00 00 11 02 06 00 
+	40	10 80 41 01 C0 0F 00 00 00 00 11 00 11 2C 11 02 
+	50	40 00 11 30 60 00 00 00 00 00 48 01 00 00 00 00 
+	60	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	70	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	80	05 90 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	90	0D A0 00 00 49 18 D2 27 00 00 00 00 00 00 00 00 
+	A0	01 00 02 C8 00 01 00 00 00 00 00 00 00 00 00 00 
+	B0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	C0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	D0	00 00 00 00 00 00 00 00 00 00 11 00 00 00 00 00 
+	E0	00 00 C7 00 06 07 08 00 00 00 00 00 00 00 00 00 
+	F0	00 00 00 00 00 00 00 00 86 0F 01 00 00 00 00 00 
+	100	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	110	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	120	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	130	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	140	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	150	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	160	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	170	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	180	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	190	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1A0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1B0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1C0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1D0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1E0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1F0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+Description			USB Controller (UHCI)
+Location			bus 0 (0x00), device 29 (0x1D), function 0 (0x00)
+Common header
+	Vendor ID		0x8086 (Intel)
+	Model ID		0x27C8
+	Revision ID		0x01
+	PI			0x00
+	SubClass		0x03
+	BaseClass		0x0C
+	Cache Line		0x00
+	Latency			0x00
+	Header			0x80
+PCI header
+	Address 4 (port)	0x0000D400
+	Subvendor ID		0x1849 (Asrock)
+	Subsystem ID		0x27C8
+	Int. Line		0x17
+	Int. Pin		0x01
+PCI registers	
+		00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F 
+	00	86 80 C8 27 05 00 80 02 01 00 03 0C 00 00 80 00 
+	10	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	20	01 D4 00 00 00 00 00 00 00 00 00 00 49 18 C8 27 
+	30	00 00 00 00 00 00 00 00 00 00 00 00 17 01 00 00 
+	40	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	50	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	60	10 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	70	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	80	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	90	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	A0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	B0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	C0	00 20 00 00 00 00 00 00 00 00 01 00 00 00 00 00 
+	D0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	E0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	F0	00 00 00 00 00 00 00 00 86 0F 01 00 00 00 00 00 
+
+Description			USB Controller (UHCI)
+Location			bus 0 (0x00), device 29 (0x1D), function 1 (0x01)
+Common header
+	Vendor ID		0x8086 (Intel)
+	Model ID		0x27C9
+	Revision ID		0x01
+	PI			0x00
+	SubClass		0x03
+	BaseClass		0x0C
+	Cache Line		0x00
+	Latency			0x00
+	Header			0x00
+PCI header
+	Address 4 (port)	0x0000D480
+	Subvendor ID		0x1849 (Asrock)
+	Subsystem ID		0x27C9
+	Int. Line		0x13
+	Int. Pin		0x02
+PCI registers	
+		00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F 
+	00	86 80 C9 27 05 00 80 02 01 00 03 0C 00 00 00 00 
+	10	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	20	81 D4 00 00 00 00 00 00 00 00 00 00 49 18 C9 27 
+	30	00 00 00 00 00 00 00 00 00 00 00 00 13 02 00 00 
+	40	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	50	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	60	10 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	70	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	80	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	90	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	A0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	B0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	C0	00 20 00 00 00 00 00 00 00 00 01 00 00 00 00 00 
+	D0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	E0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	F0	00 00 00 00 00 00 00 00 86 0F 01 00 00 00 00 00 
+
+Description			USB Controller (UHCI)
+Location			bus 0 (0x00), device 29 (0x1D), function 2 (0x02)
+Common header
+	Vendor ID		0x8086 (Intel)
+	Model ID		0x27CA
+	Revision ID		0x01
+	PI			0x00
+	SubClass		0x03
+	BaseClass		0x0C
+	Cache Line		0x00
+	Latency			0x00
+	Header			0x00
+PCI header
+	Address 4 (port)	0x0000D800
+	Subvendor ID		0x1849 (Asrock)
+	Subsystem ID		0x27CA
+	Int. Line		0x12
+	Int. Pin		0x03
+PCI registers	
+		00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F 
+	00	86 80 CA 27 05 00 80 02 01 00 03 0C 00 00 00 00 
+	10	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	20	01 D8 00 00 00 00 00 00 00 00 00 00 49 18 CA 27 
+	30	00 00 00 00 00 00 00 00 00 00 00 00 12 03 00 00 
+	40	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	50	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	60	10 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	70	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	80	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	90	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	A0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	B0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	C0	00 20 00 00 00 00 00 00 00 00 01 00 00 00 00 00 
+	D0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	E0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	F0	00 00 00 00 00 00 00 00 86 0F 01 00 00 00 00 00 
+
+Description			USB Controller (UHCI)
+Location			bus 0 (0x00), device 29 (0x1D), function 3 (0x03)
+Common header
+	Vendor ID		0x8086 (Intel)
+	Model ID		0x27CB
+	Revision ID		0x01
+	PI			0x00
+	SubClass		0x03
+	BaseClass		0x0C
+	Cache Line		0x00
+	Latency			0x00
+	Header			0x00
+PCI header
+	Address 4 (port)	0x0000D880
+	Subvendor ID		0x1849 (Asrock)
+	Subsystem ID		0x27CB
+	Int. Line		0x10
+	Int. Pin		0x04
+PCI registers	
+		00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F 
+	00	86 80 CB 27 05 00 80 02 01 00 03 0C 00 00 00 00 
+	10	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	20	81 D8 00 00 00 00 00 00 00 00 00 00 49 18 CB 27 
+	30	00 00 00 00 00 00 00 00 00 00 00 00 10 04 00 00 
+	40	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	50	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	60	10 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	70	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	80	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	90	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	A0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	B0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	C0	00 20 00 00 00 00 00 00 00 00 01 00 00 00 00 00 
+	D0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	E0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	F0	00 00 00 00 00 00 00 00 86 0F 01 00 00 00 00 00 
+
+Description			USB 2.0 Controller (EHCI)
+Location			bus 0 (0x00), device 29 (0x1D), function 7 (0x07)
+Common header
+	Vendor ID		0x8086 (Intel)
+	Model ID		0x27CC
+	Revision ID		0x01
+	PI			0x20
+	SubClass		0x03
+	BaseClass		0x0C
+	Cache Line		0x00
+	Latency			0x00
+	Header			0x00
+PCI header
+	Address 0 (memory)	0xFEAF7C00
+	Subvendor ID		0x1849 (Asrock)
+	Subsystem ID		0x27CC
+	Int. Line		0x17
+	Int. Pin		0x01
+PCI capability
+	Caps class		Power Management
+	Caps offset		0x50
+	Caps version		1.1
+PCI capability
+	Caps class		Debug Port
+	Caps offset		0x58
+PCI registers	
+		00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F 
+	00	86 80 CC 27 06 00 90 02 01 20 03 0C 00 00 00 00 
+	10	00 7C AF FE 00 00 00 00 00 00 00 00 00 00 00 00 
+	20	00 00 00 00 00 00 00 00 00 00 00 00 49 18 CC 27 
+	30	00 00 00 00 50 00 00 00 00 00 00 00 17 01 00 00 
+	40	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	50	01 58 C2 C9 00 00 00 00 0A 00 A0 20 00 00 00 00 
+	60	20 20 FF 01 00 00 00 00 01 00 00 00 00 20 00 C0 
+	70	00 00 DF 3F 00 00 00 00 00 00 00 00 00 00 00 00 
+	80	00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 
+	90	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	A0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	B0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	C0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	D0	00 00 00 00 00 AA FF 00 FF 00 FF 00 20 00 00 88 
+	E0	00 00 00 00 DB B6 6D 00 00 00 00 00 00 00 00 00 
+	F0	00 80 00 09 88 85 40 00 86 0F 01 00 0A 17 02 20 
+
+Description			PCI to PCI Bridge
+Location			bus 0 (0x00), device 30 (0x1E), function 0 (0x00)
+Common header
+	Vendor ID		0x8086 (Intel)
+	Model ID		0x244E
+	Revision ID		0xE1
+	PI			0x01
+	SubClass		0x04
+	BaseClass		0x06
+	Cache Line		0x00
+	Latency			0x00
+	Header			0x01
+PCI header
+	Primary bus		0x00
+	Secondary bus		0x03
+	Int. Line		0xFF
+	Int. Pin		0x00
+PCI capability
+	Caps class		Subsystem Vendor
+	Caps offset		0x50
+	SubVendor ID		0x1849 (Asrock)
+	SubSystem ID		0x244E
+PCI registers	
+		00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F 
+	00	86 80 4E 24 07 01 10 00 E1 01 04 06 00 00 01 00 
+	10	00 00 00 00 00 00 00 00 00 03 03 20 F0 00 80 22 
+	20	F0 FF 00 00 F1 FF 01 00 00 00 00 00 00 00 00 00 
+	30	00 00 00 00 50 00 00 00 00 00 00 00 FF 00 06 00 
+	40	00 00 00 00 00 00 00 00 00 00 00 00 00 12 00 00 
+	50	0D 00 00 00 49 18 4E 24 00 00 00 00 00 00 00 00 
+	60	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	70	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	80	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	90	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	A0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	B0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	C0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	D0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	E0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	F0	00 00 00 00 00 00 00 00 86 0F 01 00 00 00 00 00 
+
+Description			PCI to ISA Bridge
+Location			bus 0 (0x00), device 31 (0x1F), function 0 (0x00)
+Common header
+	Vendor ID		0x8086 (Intel)
+	Model ID		0x27B8
+	Revision ID		0x01
+	PI			0x00
+	SubClass		0x01
+	BaseClass		0x06
+	Cache Line		0x00
+	Latency			0x00
+	Header			0x80
+PCI header
+	Subvendor ID		0x1849 (Asrock)
+	Subsystem ID		0x27B8
+	Int. Line		0x00
+	Int. Pin		0x00
+PCI capability
+	Caps class		Vendor Dependant
+	Caps offset		0xE0
+PCI registers	
+		00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F 
+	00	86 80 B8 27 07 00 10 02 01 00 01 06 00 00 80 00 
+	10	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	20	00 00 00 00 00 00 00 00 00 00 00 00 49 18 B8 27 
+	30	00 00 00 00 E0 00 00 00 00 00 00 00 00 00 00 00 
+	40	01 08 00 00 80 00 00 00 81 04 00 00 10 00 00 00 
+	50	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	60	8B 8A 86 85 D0 00 00 00 80 80 80 83 00 00 00 00 
+	70	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	80	00 00 0F 14 81 02 FC 00 00 00 00 00 00 00 00 00 
+	90	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	A0	20 06 00 00 39 00 00 00 13 00 00 00 00 03 00 00 
+	B0	00 00 F0 00 00 00 00 00 00 00 00 08 00 00 00 00 
+	C0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	D0	33 22 11 00 67 45 00 00 C0 C0 00 00 00 00 00 00 
+	E0	09 00 0C 10 A8 00 24 00 00 00 00 00 00 00 00 00 
+	F0	01 C0 D1 FE 00 00 00 00 86 0F 01 00 00 00 00 00 
+
+Description			IDE Controller
+Location			bus 0 (0x00), device 31 (0x1F), function 1 (0x01)
+Common header
+	Vendor ID		0x8086 (Intel)
+	Model ID		0x27DF
+	Revision ID		0x01
+	PI			0x8A
+	SubClass		0x01
+	BaseClass		0x01
+	Cache Line		0x00
+	Latency			0x00
+	Header			0x00
+PCI header
+	Address 4 (port)	0x0000FFA0
+	Subvendor ID		0x1849 (Asrock)
+	Subsystem ID		0x27DF
+	Int. Line		0x00
+	Int. Pin		0x01
+PCI registers	
+		00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F 
+	00	86 80 DF 27 05 00 88 02 01 8A 01 01 00 00 00 00 
+	10	01 00 00 00 01 00 00 00 01 00 00 00 01 00 00 00 
+	20	A1 FF 00 00 00 00 00 00 00 00 00 00 49 18 DF 27 
+	30	00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 
+	40	00 80 00 80 00 00 00 00 00 00 00 00 00 00 00 00 
+	50	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	60	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	70	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	80	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	90	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	A0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	B0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	C0	00 00 00 00 03 00 00 00 00 00 00 00 00 00 00 00 
+	D0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	E0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	F0	00 00 00 00 00 00 00 00 86 0F 01 00 00 00 00 00 
+
+Description			IDE Controller
+Location			bus 0 (0x00), device 31 (0x1F), function 2 (0x02)
+Common header
+	Vendor ID		0x8086 (Intel)
+	Model ID		0x27C0
+	Revision ID		0x01
+	PI			0x8F
+	SubClass		0x01
+	BaseClass		0x01
+	Cache Line		0x00
+	Latency			0x00
+	Header			0x00
+PCI header
+	Address 0 (port)	0x0000D080
+	Address 1 (port)	0x0000D000
+	Address 2 (port)	0x0000CC00
+	Address 3 (port)	0x0000C880
+	Address 4 (port)	0x0000C800
+	Subvendor ID		0x1849 (Asrock)
+	Subsystem ID		0x27C0
+	Int. Line		0x13
+	Int. Pin		0x02
+PCI capability
+	Caps class		Power Management
+	Caps offset		0x70
+	Caps version		1.1
+PCI registers	
+		00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F 
+	00	86 80 C0 27 05 00 B0 02 01 8F 01 01 00 00 00 00 
+	10	81 D0 00 00 01 D0 00 00 01 CC 00 00 81 C8 00 00 
+	20	01 C8 00 00 00 00 00 00 00 00 00 00 49 18 C0 27 
+	30	00 00 00 00 70 00 00 00 00 00 00 00 13 02 00 00 
+	40	07 A3 03 A3 00 00 00 00 05 00 01 01 00 00 00 00 
+	50	00 00 00 00 F0 50 00 00 00 00 00 00 00 00 00 00 
+	60	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	70	01 00 02 40 00 00 00 00 00 00 00 00 00 00 00 00 
+	80	05 70 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	90	00 00 3F 00 80 01 00 40 00 00 00 00 00 00 00 00 
+	A0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	B0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	C0	00 00 00 00 05 00 00 00 00 00 00 00 00 00 00 00 
+	D0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	E0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	F0	00 00 00 00 00 00 00 00 86 0F 01 00 00 00 00 00 
+
+Description			SMBus Controller
+Location			bus 0 (0x00), device 31 (0x1F), function 3 (0x03)
+Common header
+	Vendor ID		0x8086 (Intel)
+	Model ID		0x27DA
+	Revision ID		0x01
+	PI			0x00
+	SubClass		0x05
+	BaseClass		0x0C
+	Cache Line		0x00
+	Latency			0x00
+	Header			0x00
+PCI header
+	Address 4 (port)	0x00000400
+	Subvendor ID		0x1849 (Asrock)
+	Subsystem ID		0x27DA
+	Int. Line		0x05
+	Int. Pin		0x02
+PCI registers	
+		00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F 
+	00	86 80 DA 27 01 00 80 02 01 00 05 0C 00 00 00 00 
+	10	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	20	01 04 00 00 00 00 00 00 00 00 00 00 49 18 DA 27 
+	30	00 00 00 00 00 00 00 00 00 00 00 00 05 02 00 00 
+	40	01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	50	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	60	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	70	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	80	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	90	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	A0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	B0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	C0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	D0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	E0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	F0	00 00 00 00 00 00 00 00 86 0F 01 00 00 00 00 00 
+
+Description			Ethernet Controller
+Location			bus 1 (0x01), device 0 (0x00), function 0 (0x00)
+Common header
+	Vendor ID		0x1969 (Qualcomm Atheros)
+	Model ID		0x2062
+	Revision ID		0xC1
+	PI			0x00
+	SubClass		0x00
+	BaseClass		0x02
+	Cache Line		0x08
+	Latency			0x00
+	Header			0x00
+PCI header
+	Address 0 (memory)	0x00000000FEBC0004
+	Address 2 (port)	0x0000EC00
+	Subvendor ID		0x1849 (Asrock)
+	Subsystem ID		0x2062
+	Int. Line		0x11
+	Int. Pin		0x01
+PCI capability
+	Caps class		Power Management
+	Caps offset		0x40
+	Caps version		1.2
+PCI capability
+	Caps class		Message Signalled Interrupts
+	Caps offset		0x48
+PCI capability
+	Caps class		PCI Express
+	Caps offset		0x58
+	Device type		PCI-E Endpoint Device
+	Port			0
+	Caps version		1.0
+	Link width		1x (max 1x)
+	Link speed		2.5 GT/s (max 2.5 GT/s)
+PCI capability
+	Caps class		Virtual Product Data
+	Caps offset		0x6C
+PCI extended capability
+	Caps class		Advanced Error Reporting
+	Caps offset		0x100
+PCI extended capability
+	Caps class		Device Serial Number
+	Caps offset		0x180
+	Serial (EUI-64)		FFB280ED-2522FF
+PCI registers	
+		00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F 
+	00	69 19 62 20 07 00 10 00 C1 00 00 02 08 00 00 00 
+	10	04 00 BC FE 00 00 00 00 01 EC 00 00 00 00 00 00 
+	20	00 00 00 00 00 00 00 00 00 00 00 00 49 18 62 20 
+	30	00 00 00 00 40 00 00 00 00 00 00 00 11 01 00 00 
+	40	01 48 C3 F9 08 01 00 00 05 58 80 00 00 00 00 00 
+	50	00 00 00 00 00 00 00 00 10 6C 01 00 C5 FF 00 00 
+	60	00 20 10 00 11 FC 07 00 40 00 11 10 03 00 00 00 
+	70	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	80	1C 02 00 00 00 0C 00 00 00 00 00 00 00 00 00 00 
+	90	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	A0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	B0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	C0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	D0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	E0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	F0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	100	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	110	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	120	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	130	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	140	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	150	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	160	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	170	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	180	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	190	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1A0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1B0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1C0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1D0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1E0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1F0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+
+DMI
+-------------------------------------------------------------------------
+
+SMBIOS Version			2.5
+
+DMI BIOS		
+	vendor			American Megatrends Inc.
+	version			P1.30
+	date			02/15/2011
+	ROM size		1024 KB
+
+DMI System Information		
+	manufacturer		To Be Filled By O.E.M.
+	product			To Be Filled By O.E.M.
+	version			To Be Filled By O.E.M.
+	serial			To Be Filled By O.E.M.
+	UUID			{03000200-0400-0500-0006-000700080009}
+	SKU			To Be Filled By O.E.M.
+	family			To Be Filled By O.E.M.
+
+DMI Baseboard		
+	vendor			ASRock
+	model			G41M-VS3.
+	revision		unknown
+	serial			unknown
+
+DMI System Enclosure		
+	manufacturer		To Be Filled By O.E.M.
+	chassis type		Desktop
+	chassis serial		To Be Filled By O.E.M.
+
+DMI Processor		
+	manufacturer		Intel
+	model			Pentium(R) Dual-Core  CPU      E5700  @ 3.00GHz
+	clock speed		3000.0 MHz
+	FSB speed		200.0 MHz
+	multiplier		15.0x
+	max clock speed		3000.0 MHz
+
+DMI Memory Controller		
+	correction		64-bit ECC
+	Max module size		4096 MBytes
+
+DMI Memory Module		
+	designation		DIMM0
+	size			4096 MBytes (double bank)
+
+DMI Memory Module		
+	designation		DIMM1
+
+DMI Extension Slot		
+	designation		PCI1
+	type			PCI
+	width			32 bits
+	populated		no
+
+DMI Extension Slot		
+	designation		PCIE1
+	type			PCI Express
+	populated		no
+
+DMI Physical Memory Array		
+	location		Motherboard
+	usage			System Memory
+	correction		None
+	max capacity		4 GB
+	max# of devices		2
+
+DMI Memory Device		
+	designation		DIMM0
+	format			DIMM
+	type			SDRAM
+	total width		64 bits
+	data width		64 bits
+	size			4 GB
+	manufacturer		Manufacturer00
+	part number		ModulePartNumber00
+	serial number		SerNum00
+
+DMI Memory Device		
+	designation		DIMM1
+	format			DIMM
+	type			unknown
+	data width		64 bits
+	manufacturer		Manufacturer01
+	part number		ModulePartNumber01
+	serial number		SerNum01
+
+
+Storage
+-------------------------------------------------------------------------
+
+Drive	0/0/-1/-1
+	Device Path		\\?\ide#disksamsung_hd502hj_________________________1aj10001#5&abde2ff&0&0.0.0#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+	Name			SAMSUNG HD502HJ
+	Revision		1AJ10001
+	Serial			S20BJ9KB825744
+	Capacity		465.8 GB
+	Type			Fixed
+	Bus Type		ATA (3)
+	Rotation speed		7200 RPM
+	Features		SMART
+	Volume			c:\, 465.3 GBytes (85.8 percent available)
+
+
+USB Devices
+-------------------------------------------------------------------------
+
+USB Device			Dispositivo compuesto USB, class=0x00, subclass=0x00, vendor=0x04D9, product=0x1503
+USB Device			Dispositivo de entrada USB, class=0x00, subclass=0x00, vendor=0x30FA, product=0x0300
+USB Device			Dispositivo de almacenamiento USB, class=0x00, subclass=0x00, vendor=0xFFFF, product=0x5678
+USB Device			Generic USB Hub, class=0x09, subclass=0x00, vendor=0x214B, product=0x7250
+USB Device			Dispositivo de almacenamiento USB, class=0x00, subclass=0x00, vendor=0x03F0, product=0x5407
+USB Device			Dispositivo de almacenamiento USB, class=0x00, subclass=0x00, vendor=0xAAAA, product=0x8816
+
+Graphics
+-------------------------------------------------------------------------
+
+Number of adapters		1
+
+Graphic APIs
+-------------------------------------------------------------------------
+
+API				D3D
+API				Intel I/O
+
+Display Adapters
+-------------------------------------------------------------------------
+
+Display adapter 0 (primary)	
+	ID			0x4000000
+	Name			Intel(R) G41 Express Chipset (Microsoft Corporation - WDDM 1.1)
+	Board Manufacturer	ASRock Inc.
+	PCI device		bus 0 (0x0), device 2 (0x2), function 0 (0x0)
+		Vendor ID	0x8086 (0x1849)
+		Model ID	0x2E32 (0x2E32)
+		Revision ID	0x3
+	WDDM Model		1.1
+
+Win32_VideoController		AdapterRAM = 0x6FE8B000 (1877520384)
+Win32_VideoController		DriverVersion = 8.15.10.1749
+Win32_VideoController		DriverDate = 05/06/2009
+
+Monitor 0	
+	Model			DELL E1914H (Dell Computer)
+	ID			DELD03A
+	Serial			4FF4748C1K9I
+	Manufacturing Date	Week 33, Year 2014
+	Size			18.5 inches
+	Max Resolution		1366 x 768 @ 59 Hz
+	Horizontal Freq. Range	30-83 kHz
+	Vertical Freq. Range	56-75 Hz
+	Max Pixel Clock		90 MHz
+	Gamma Factor		2.2
+	Video Input		0xE
+
+
+AI Devices
+-------------------------------------------------------------------------
+
+
+NPU Devices
+-------------------------------------------------------------------------
+
+
+Software
+-------------------------------------------------------------------------
+
+Windows Version			Microsoft Windows 7 (6.1)  Professional (x64), Service Pack 1 (Build 7601)
+DirectX Version			11.0
+
+
+Register Spaces
+-------------------------------------------------------------------------
+
+Register space			PCI
+Register space			PCI #2
+Register space			PCI Express, base address = 0x0F0000000
+Register space			SMBus, base address = 0x0400
+Register space			LPC, base address = 0x0290
+Register space			LPC, base address = 0x02E
